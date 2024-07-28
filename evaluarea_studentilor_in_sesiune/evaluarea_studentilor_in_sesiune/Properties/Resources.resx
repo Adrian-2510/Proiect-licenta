@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="8666618_eye_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666618_eye_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3672869_college_education_graduate_student_university_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3672869_college_education_graduate_student_university_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3688460_pencil_text_update_write_draw_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3688460_pencil_text_update_write_draw_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sigla-feaa-2016-without-bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sigla-feaa-2016-without-bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pozac lacat deschis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pozac lacat deschis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666628_user_check_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666628_user_check_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="76138261" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\76138261.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6217227_bin_fly_garbage_trash_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6217227_bin_fly_garbage_trash_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666620_database_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666620_database_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666718_plus_circle_icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666718_plus_circle_icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="classroom-1699745_1920" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\classroom-1699745_1920.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6217227_bin_fly_garbage_trash_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6217227_bin_fly_garbage_trash_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7853741_logout_kashifarif_exit_out_close_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7853741_logout_kashifarif_exit_out_close_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat-1674894_19202" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat-1674894_19202.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat-1674894_1920" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat-1674894_1920.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="403020_avatar_male_support_user_headset_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\403020_avatar_male_support_user_headset_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="299086_info_sign_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\299086_info_sign_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glasses-1052010_1920" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glasses-1052010_1920.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZKZg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZKZg.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="299086_info_sign_icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\299086_info_sign_icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dateNevalidate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dateNevalidate1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7853741_logout_kashifarif_exit_out_close_icon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7853741_logout_kashifarif_exit_out_close_icon3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="college-student-4369850_1920" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\college-student-4369850_1920.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666806_edit_write_pen_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666806_edit_write_pen_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1564534_customer_man_user_account_profile_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1564534_customer_man_user_account_profile_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo dreapta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo dreapta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666769_link_connection_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666769_link_connection_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666650_file_plus_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666650_file_plus_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoon-snail-loading-loading-gif-animation_2734139" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartoon-snail-loading-loading-gif-animation_2734139.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nor titilu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nor titilu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9929075_information_service_support_help_assistance_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9929075_information_service_support_help_assistance_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7267716_ext_pdf_adobe_reader_acrobat_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7267716_ext_pdf_adobe_reader_acrobat_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_f75fd3ad-cc60-46c3-87ad-500f457819a2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_f75fd3ad-cc60-46c3-87ad-500f457819a2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apple-256263_1920" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apple-256263_1920.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6771587_diary_education_learning_pencil_school_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6771587_diary_education_learning_pencil_school_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_126f67cd-dc1e-4826-80c9-dea34039c3991" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_126f67cd-dc1e-4826-80c9-dea34039c399.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="one academy logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\one academy logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FPEV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FPEV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666718_plus_circle_icon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666718_plus_circle_icon3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_b08a5563-e194-4ca1-8961-863dc8fa8005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_b08a5563-e194-4ca1-8961-863dc8fa8005.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1519785_cutter_eraser_office_pencil_remove_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1519785_cutter_eraser_office_pencil_remove_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pozaProfilDefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pozaProfilDefault.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_126f67cd-dc1e-4826-80c9-dea34039c399" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_126f67cd-dc1e-4826-80c9-dea34039c399.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7613826" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7613826.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sigla-feaa-2016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sigla-feaa-2016.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="student_Cont" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\student_Cont.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9c2f58f6-ee0f-4102-be93-65df60d2f2721" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_9c2f58f6-ee0f-4102-be93-65df60d2f2721.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3890930_announce_horn_megaphone_news_trumpet_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3890930_announce_horn_megaphone_news_trumpet_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 bar menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 bar menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book-1977235_960_720" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book-1977235_960_720.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA1L2pvYjk2NC0yMDEuanBn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA1L2pvYjk2NC0yMDEuanBn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666628_user_check_icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666628_user_check_icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666688_user_x_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666688_user_x_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat-1674894_1280" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat-1674894_1280.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1055103_brush_pencil_edit_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1055103_brush_pencil_edit_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dateNevalidate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dateNevalidate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bifaVerde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bifaVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="809403_magnifying glass_miscellaneous_view_zoom_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\809403_magnifying glass_miscellaneous_view_zoom_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adaugare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adaugare.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="student_Cont1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\student_Cont1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666578_arrow_up_circle_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666578_arrow_up_circle_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="books-2596809_19201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\books-2596809_19201.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="books-2596809_1920" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\books-2596809_1920.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="desk-2158142_1920" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\desk-2158142_1920.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9c2f58f6-ee0f-4102-be93-65df60d2f272" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_9c2f58f6-ee0f-4102-be93-65df60d2f272.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user-login-icon-29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-login-icon-29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2850859_document_file_page_paper_pdf_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2850859_document_file_page_paper_pdf_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profesor_cont1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profesor_cont1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pozaParola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pozaParola.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9004837_send_mail_email_letter_envelope_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9004837_send_mail_email_letter_envelope_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="809403_magnifying glass_miscellaneous_view_zoom_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\809403_magnifying glass_miscellaneous_view_zoom_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="poza lacat deschsi 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\poza lacat deschsi 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="118917_edit_clear_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\118917_edit_clear_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="667366_measure_pencil_ruler_school_work_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\667366_measure_pencil_ruler_school_work_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pozaUser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pozaUser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666715_book_open_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666715_book_open_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666628_user_check_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666628_user_check_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_b08a5563-e194-4ca1-8961-863dc8fa80051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_b08a5563-e194-4ca1-8961-863dc8fa80051.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="books-2596809_19202" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\books-2596809_19202.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666749_plus_add_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666749_plus_add_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666658_credit_card_icon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666658_credit_card_icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat-1674894_19201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat-1674894_19201.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lacat deschis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lacat deschis1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="computer-icon-2429310_1280" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computer-icon-2429310_1280.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4400629" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4400629.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profesor_cont" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profesor_cont.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA1L2pvYjk2NC0yMDEuanBn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA1L2pvYjk2NC0yMDEuanBn1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666718_plus_circle_icon4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666718_plus_circle_icon4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9004846_tick_check_mark_accept_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9004846_tick_check_mark_accept_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666718_plus_circle_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666718_plus_circle_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9990914_update_data_load_system_upload_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9990914_update_data_load_system_upload_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="poza form pregateste ev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\poza form pregateste ev.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666806_edit_write_pen_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666806_edit_write_pen_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666755_users_group_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666755_users_group_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1564534_customer_man_user_account_profile_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1564534_customer_man_user_account_profile_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3099383_student_man_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3099383_student_man_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bifa-verde-ghid-300x268" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bifa-verde-ghid-300x268.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666546_user_plus_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666546_user_plus_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666618_eye_icon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666618_eye_icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7853741_logout_kashifarif_exit_out_close_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7853741_logout_kashifarif_exit_out_close_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7853741_logout_kashifarif_exit_out_close_icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7853741_logout_kashifarif_exit_out_close_icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_d8d5de1d-530e-4dd1-a0d4-8547bc015b59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_d8d5de1d-530e-4dd1-a0d4-8547bc015b59.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666650_file_plus_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666650_file_plus_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="285638_pencil_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\285638_pencil_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8666718_plus_circle_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8666718_plus_circle_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo one academy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo one academy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="299086_info_sign_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\299086_info_sign_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="667366_measure_pencil_ruler_school_work_icon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\667366_measure_pencil_ruler_school_work_icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

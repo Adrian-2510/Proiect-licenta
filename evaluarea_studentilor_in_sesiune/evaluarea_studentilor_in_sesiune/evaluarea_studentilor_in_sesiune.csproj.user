@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Administrator\FormAdaugaDisciplina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Administrator\FormAdaugaGrupele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Administrator\FormAsociereProfesorDIsiciplinaGrupa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Administrator\FormConuriAdministare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormVizualizareIntrebari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Profesor\FormCatalogProfesor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Student\FormEvaluari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Profesor\FormEvaluariEleviP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Profesor\FormPregatesteEvaluare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Profesor\FormAdaugaIntrebari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Administrator\FormAdaugaSpecializare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormCreareCont.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormCreareCont2cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormIntraInAplicatie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Administrator\FormLogareAdministrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Profesor\FormLogareP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Student\FormLogareS_P.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Student\FormVizualizareEvaluari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
